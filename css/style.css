@@ -12,11 +12,11 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: #FFC0CB;
 }
 
 .greetings {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-weight: 900;
 }
 
@@ -28,13 +28,13 @@ body {
 
     0%,
     100% {
-        color: #fff;
-        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+        color: black;
+        text-shadow: 0 0 12px #FF92A5, 0 0 50px #FF92A5, 0 0 100px #FF92A5;
     }
 
     10%,
     90% {
-        color: #111;
+        color: #FF647F;
         text-shadow: none;
     }
 }
@@ -138,12 +138,19 @@ body {
 .description {
     font-size: 1.5rem;
     margin-bottom: 20px;
+    color: #FF647F;
 }
 
-.button a {
+.button {
+    background-color: #FF647F;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
     text-decoration: none;
-    font-size: 1rem;
-    color: #111;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 @media screen and (max-width:1024px) {
